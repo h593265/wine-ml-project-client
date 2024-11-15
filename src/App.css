@@ -13,19 +13,104 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-container {
+ background-color: rgb(245, 244, 244);
+  margin: auto;
+  width: 80%;
+  
+  height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+  justify-content: top;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.image-container{
 
+ margin-left: auto;
+}
+
+.horizontal-flex{
+  display: flex;
+
+}
+
+.row {
+  
+  display: flex;
+ 
+ justify-content: center;
+ 
+  gap: 50px;
+  text-align: start;
+}
+
+.input-field {
+  margin-left: 1em;
+  padding: .5em;
+  margin-bottom: .5em;
+}
+
+label{
+  color: black;
+  font-size: medium;
+  min-width: 150px;
+}
+
+.form-container {
+
+  
+  height: 100%;
+  width: 50%;
+  margin: auto;
+}
+.quality-chart {
+  margin-top: 20px;
+  transition: width 0.3s ease-in-out;
+}
+.result-container{
+  color: black;
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  
+ justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+}
 .App-link {
   color: #61dafb;
+}
+.quality-chart {
+  margin-top: 20px;
+  position: relative;
+ 
+}
+
+.chart-labels {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 25px;
+}
+
+.marker {
+  position: absolute;
+  top: -10px;
+  background-color: black;
+}
+button{
+  background-color: #5e5f5f;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 30px;
+  color:white;
+  cursor: pointer;
+  
 }
 
 @keyframes App-logo-spin {
